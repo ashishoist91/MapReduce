@@ -1,3 +1,4 @@
+package com.ashish.mapReduce.wordCount;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
