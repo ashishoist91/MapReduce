@@ -34,6 +34,7 @@ public class Bigram  extends Configured implements Tool{
 		job.setJarByClass(getClass());
 		
 		job.setJobName("Bigram");
+		System.out.println();
 
 		job.setMapOutputKeyClass(TextPair.class);
 		job.setOutputKeyClass(Text.class);
