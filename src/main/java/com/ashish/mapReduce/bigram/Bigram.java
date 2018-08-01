@@ -10,10 +10,6 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-import com.ashish.mapReduce.invertedIndex.InvertedIndex;
-import com.ashish.mapReduce.invertedIndex.Map;
-import com.ashish.mapReduce.invertedIndex.Reduce;
-import com.ashish.mapReduce.wordCount.WordCountWithTool;
 
 public class Bigram  extends Configured implements Tool{
 
